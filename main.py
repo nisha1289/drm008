@@ -43,9 +43,9 @@ botStartTime = time.time()
 batch = []
 bot = Client(
     "bot",
-    api_id=api_id,
-    api_hash=api_hash,
-    bot_token=bot_token)
+    api_id=27039595,
+    api_hash="aabe9b61bbdb73ea4b35fc4faa880621",
+    bot_token="6857799966:AAEcIbjlwlumfZ3_3REfoJyl7q3w_UjSnUQ")
       
 @bot.on_message(filters.command(["start"]) & filters.chat(sudo_groups))
 async def start_handler(bot: Client, m: Message):
